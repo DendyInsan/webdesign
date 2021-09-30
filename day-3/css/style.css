@@ -1,0 +1,266 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+}
+
+.container{
+    width: 100%;
+    
+    
+}
+
+.header{
+   
+   
+    height:80px;
+    color: white;
+    background: -moz-linear-gradient(top, #3b5998, #2b4170);
+ background: -ms-linear-gradient(top, #3b5998, #2b4170);
+ background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+}
+
+.header img{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.form-atas{
+    float: right;
+    width:400px;
+    margin-right: 170px;
+   margin-top:2px;
+  
+  
+}
+.rowform1{
+    display: inline-flex;
+    width:100%;
+    padding-bottom:2px;
+    
+}
+.form-item{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.form-item input{
+    height:25px;
+}
+ 
+.form-submit{
+    padding-top: 25px;  
+    margin-right: 70px;
+}
+
+.form-submit input {
+   padding: 2px 2px;
+    background-color: #6079AB;
+    color:white;
+    font-weight: bold;
+    height:24px;
+    width: 100%;
+    border-color: black;
+    font-size: 11px;
+}
+.rowform2{
+    width:100%;
+    display: inline-flex;
+}
+.rowform2 label{
+    color: #8DACB9;
+    padding-right:18px;
+}
+.form-item2 a{
+   text-decoration: none;
+   color: #8DACB9;
+}
+
+.detail{
+    margin:0 auto;
+    padding:0px;
+    display: inline-flex;
+    width:100%;
+    background: -moz-linear-gradient(top, #FFFF, #E1E4EF);
+ background: -ms-linear-gradient(top, #FFFF, #E1E4EF);
+ background: -webkit-linear-gradient(top, #FFFF, #E1E4EF);
+  
+ 
+}
+
+.detail-left{
+    width:40%;
+    margin-top:50px;
+    margin-left: 150px;
+    padding: 0px auto;
+   
+   
+}
+
+.detail-left p{
+    font-size:20px;
+    font-family:arial;
+    font-weight:bold;
+    text-align: left;
+    width:450px;
+    color:#0E385F;
+}
+
+.detail-left img{
+    pading-left :20px;
+}
+
+.detail-right{
+    float:right;
+    width:50%;
+   margin-top:40px;
+   padding-left: 100px;
+   
+}
+
+.detail-right h1{
+    margin:0px;
+ font-size:37px;
+ color:#2E2E2E;
+}
+
+.detail-right p{
+    font-size:18px;
+    color:#2E2E2E;
+}
+
+.detail-right li{
+    list-style-type:none;
+ margin-top:10px;
+}
+
+.detail-right #firstname{
+    width:39%;
+}
+
+.detail-right #surname
+{
+ margin-left:2%;
+ width:39%;
+}
+
+.detail-right li input[type="text"]
+{
+ width:80%;
+ height:40px;
+ border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+
+.detail-right li input[type="password"]
+{
+ width:80%;
+ height:40px;
+ border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+
+.detail-right li input[type="radio"]
+{
+ 
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.detail-right .radioTxt
+{
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.detail-right #birthday{
+    padding-top: 10px;
+}
+.detail-right li select
+{
+ padding:4px;
+ float:left;
+}
+
+.detail-right li a
+{
+ margin-left:10px;
+ width:150px;
+ color:#045FB4;
+ text-decoration:none;
+ font-size:11px;
+ display: inline-block;
+ vertical-align: middle;
+ line-height:15px;
+}
+
+.detail-right li a:hover
+{
+ text-decoration:underline;
+}
+
+.detail-right li
+{
+ color:#2E2E2E;
+ font-size:18px;
+}
+
+.detail-right #terms
+{
+ color:#424242;
+ font-size:11px;
+}
+
+.detail-right #terms a
+{
+ display:inline;
+ margin:0px;
+}
+
+.detail-right li input[type="submit"]
+{
+ width:205px;
+ height:45px;
+ text-align:center;
+ font-size:19px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+ font-weight: bold !important;
+ background: linear-gradient(#67ae55, #578843);
+ background-color: #69a74e;
+ box-shadow: inset 0 1px 1px #a4e388;
+ border-color: #3b6e22 #3b6e22 #2c5115;
+ border: 1px solid;
+ border-radius: 5px;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+.detail-right #create_page
+{
+ color:#424242;
+ font-size:13px;
+ font-weight:bold;
+}
+
+.detail-right #create_page a
+{
+ display:inline;
+ margin:0px;
+ font-size:13px;
+}
